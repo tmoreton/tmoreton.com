@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <!-- Hero Section -->
+	  <div class="flex center site-header" style="height: 40vh;"></div>
+	  <h1 class="title">Tim Moreton</h1>
+
+  	<section>
+  		{{ content }}
+  	</section>
+        
+    {% include footer.html %}
+
+  </body>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="{{ "/assets/script.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/animation.js" | prepend: site.baseurl }}"></script>
+</html>

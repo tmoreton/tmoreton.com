@@ -1,0 +1,18 @@
+header {
+	border-bottom: 1px solid var(--border);
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: var(--white);
+}
+
+.title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 20%;
+	z-index: -1;
+}
