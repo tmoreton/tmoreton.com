@@ -4,12 +4,10 @@ title: About
 permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I have quite the varied career background first starting in Graphic Design with Johnson & Johnson Pharmaceuticals where I was constantly working with other departments to create visually appealing display ads for all of the main campuses. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+My next job was in product development where I managed the life-cycle of products from idea to creation and worked with each department along the way to ensure a timely and cost effective process. While I was still working I was teaching myself to code on the side and started to do some freelance website building jobs to further learn. 
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+My next job in web development at Contemporary Graphic Solutions. While here I used my newly acquired HTML, CSS & Javascript skills to build small online portals for our customers to login and order customized print material. After hitting a ceiling for my skills I decided to dive head first into the world of programming by going to a coding bootcamp in NYC where I spent 12 hours a day for 3 months learning the in and outs of computer science fundamentals with a focus on Node and Javascript fullstack frameworks. 
+
+After my program I got my current as Frontend Engineer at ALOHA where I was able to use a bit of experience from all my past jobs to eventually become the Lead Frontend Engineer.
