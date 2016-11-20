@@ -1,0 +1,13 @@
+.row {
+	width: 100%;
+}
+
+.line {
+	border-bottom: 1px solid var(--border);
+	margin: 20px 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, i {
+		text-align: center;
+}

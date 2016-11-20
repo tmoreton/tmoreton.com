@@ -1,11 +1,98 @@
-header {
-	border-bottom: 1px solid var(--border);
+* {
+  box-sizing: border-box;
 }
 
-.title {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	top: 150px;
-	z-index: -1;
+/* Limit to 960px no matter the screen size */
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: var(--black);
+}
+
+footer {
+	background-color: var(--white);
+  padding: 25px;
+  border-top: 1px solid var(--border);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	font-weight: 100;
+}
+
+section {
+	margin: auto;
+	padding: 0 50px;
+	background-color: var(--white);
+}
+
+/* Set Max Width to original file size */
+img {
+	max-width:100%; 
+	height:auto
+}
+
+figure {
+	margin: 0;
+	overflow: scroll;
+}
+
+pre {
+	height: 18px;
+	margin-left: -35px;
+}
+
+iframe {
+	 overflow: hidden;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+video.fullscreen { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+
+.lines {
+	border-top: 1px solid var(--white);
+	border-bottom: 1px solid var(--white);
+	padding: 50px 150px;
+}
+
+.hero {
+	color: var(--white);
+	background-color: rgba(23, 23, 23, 0.5);
+}
+
+.hero-content {
+	height: 100vh;
+}
+
+.caret {
+	font-size: 100px;
+}
+
+.highlight {
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+}
+
+ /*Small Devices, Tablets, Phones*/ 
+@media only screen and (max-width :768px) {
+
+}
+
+@media only screen and (max-width :480px) {
+
 }
