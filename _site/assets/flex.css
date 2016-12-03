@@ -123,6 +123,7 @@
   align-self: center;
   align-content: center;
   margin: auto;
+  text-align: center;
 }
 
 .right {
@@ -153,6 +154,10 @@
   align-self: flex-end;
   align-items: flex-end;
   align-content: flex-end;
+}
+
+.full {
+  width: 100%;
 }
 
 .hidden-desktop {

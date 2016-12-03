@@ -15,7 +15,9 @@
   left: 0;
   top: 0;
 }
-
+.hamburger.is-active {
+      width: 100%;
+}
 .hamburger-box {
   width: 40px;
   height: 24px;

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="flex hero-content center" style="background-image: url({{page.main-image}});background-size: cover;">
+    <div>
+      <h1 style="font-weight: 400;">{{page.title}}</h1>
+      <p>{{page.description}}</p>
+    </div>
+  </div>
+  <i class="fa fa-angle-double-down fa-3x" aria-hidden="true" style="position: absolute; bottom: 25px;; text-align: center; width: 100%;"></i>
+</div>  
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    {{ content }}
+
+</article>

@@ -7,8 +7,9 @@
     {% include header.html %}
 
   	<div class="hero">
-      <video class="fullscreen" src="/images/islands.mp4" autoplay loop muted></video>
-		  <div class="flex hero-content center">
+      <img class="fullscreen" src="/images/main.jpg">
+<!--       <video class="fullscreen" src="/images/islands.mp4" autoplay loop muted></video>
+ -->		  <div class="flex hero-content center">
         <div class="lines">
           <h3>"Life begins and the end of your comfort zone."</p>
           <p style="text-align: right; ">- Neale Donald Walsh</p>
@@ -18,16 +19,35 @@
 		</div>  
 
     <section>
+      <h2>Trips</h2>
       <div class="flex">
-        {% for article in site.data.contentful.spaces.articles.trip %}
-          <div class="flex-4 flex-mobile-12" style="padding: 50px 25px; ">
-            <a href={{ article.url }} style="box-shadow: 3px 3px 5px #888888;">
-              <img src={{ article.mainImage.url }} style="width: 100%;">
-              <p style="text-align: center; padding-top: 15px; font-weight: 600;">{{ article.title }}</p>
-              <p style="text-align: center; padding-bottom: 15px;">{{ article.description }}</p>
-            </a> 
-          </div>
-        {% endfor %} 
+        <div class="flex-4 flex-mobile-12 card zoom">
+          <a href='/trips/miami.html' class="shadow">
+            <img src="images/miami/1.jpg">
+            <div class="card-text">
+              <p><strong>Miami</strong></p>
+              <p>November 2016</p>
+            </div>
+          </a> 
+        </div>
+        <div class="flex-4 flex-mobile-12 card zoom">
+          <a href='/trips/hong-kong.html' class="shadow">
+            <img src="images/hong_kong/1.jpg">
+            <div class="card-text">
+              <p><strong>Hong Kong</strong></p>
+              <p>May 2016</p>
+            </div>
+          </a> 
+        </div>
+        <div class="flex-4 flex-mobile-12 card zoom">
+          <a href='/trips/bangkok.html' class="shadow">
+            <img src="images/bangkok/1.jpg">
+            <div class="card-text">
+              <p><strong>Bangkok</strong></p>
+              <p>May 2016</p>
+            </div>
+          </a> 
+        </div>
       </div>
     </section>
 
@@ -46,5 +66,4 @@
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="{{ "/assets/script.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/animation.js" | prepend: site.baseurl }}"></script>
 </html>

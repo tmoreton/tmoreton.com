@@ -57,10 +57,6 @@ button.x-large {
 	padding: 8px 48px;
 }
 
-button.full {
-	width: 100%;
-}
-
  /*Small Devices, Tablets, Phones*/ 
 @media only screen and (max-width :768px) {
 	button {

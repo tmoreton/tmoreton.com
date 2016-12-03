@@ -1,16 +1,21 @@
 <footer>
-  <div class="flex center">
-  	<div class="row center">
-      <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
-  		<i class="fa fa-github fa-lg" aria-hidden="true"></i>
-      <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-      <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-  	</div>
-  	
-    	<p>{{ site.title }}</p>
+	<div class="flex center full" style="max-width: 300px;">
+    <a href="mailto::tmoreton89@gmail.co">
+       <i class="fa fa-envelope fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.github.com/tmoreton">
+      <i class="fa fa-github fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.instagram.com/travelingdeveloper/">
+      <i class="fa fa-instagram fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/timothymoretonjr" >
+      <i class="fa fa-linkedin fa-2x zoom" style="padding: 15px;" aria-hidden="true"></i>
+    </a>      
   </div>
   <div class="flex center">
-      <p>© 2016 Powered by useful.ly - Built By Tim Moreton</p>
+    <p class="full">{{ site.title }}</p>
+    <p class="full">© 2016 Powered by useful.ly</p>
       <!-- <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></p> -->
   </div>
 </footer>
